@@ -758,7 +758,7 @@ class UserBrowseHistory(View):
 
         #获取sku商品信息
         # sku_ids = [int(x) for x in sku_ids]
-        skus = SKU.objects.filter(id__in=sku_ids)
+        skus = [SKU.objects.get(id=x) for x in sku_ids]
 
         #构建响应
         sku_list = []

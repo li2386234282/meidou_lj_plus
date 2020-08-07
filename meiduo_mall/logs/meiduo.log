@@ -2377,3 +2377,81 @@ INFO 2020-08-07 02:08:03,693 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall
 INFO 2020-08-07 02:08:04,965 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-08-07 02:09:39,089 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
 INFO 2020-08-07 02:09:39,842 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-07 02:45:55,148 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:45:55,157 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+WARNING 2020-08-07 02:46:00,815 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:00,819 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:00,937 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+INFO 2020-08-07 02:46:00,951 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 828
+WARNING 2020-08-07 02:46:02,151 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:02,156 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:02,198 basehttp 154 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2020-08-07 02:46:02,248 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2020-08-07 02:46:04,463 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:46:04,484 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 602
+WARNING 2020-08-07 02:46:08,805 log 228 Not Found: /carts/simple/
+INFO 2020-08-07 02:46:08,812 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2020-08-07 02:46:08,821 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:13,396 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 602
+WARNING 2020-08-07 02:46:15,179 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:15,185 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:15,206 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2020-08-07 02:46:17,052 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 602
+INFO 2020-08-07 02:46:19,133 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2020-08-07 02:46:20,578 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:20,593 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:20,595 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2020-08-07 02:46:22,420 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:22,422 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+WARNING 2020-08-07 02:46:26,019 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:26,022 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:26,068 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 828
+INFO 2020-08-07 02:46:26,089 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-08-07 02:46:29,461 log 228 Not Found: /carts/simple/
+INFO 2020-08-07 02:46:29,465 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2020-08-07 02:46:29,472 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:31,710 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:46:31,728 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 885
+WARNING 2020-08-07 02:46:40,893 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:40,894 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+WARNING 2020-08-07 02:46:43,760 log 228 Not Found: /carts/simple/
+INFO 2020-08-07 02:46:43,768 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 828
+WARNING 2020-08-07 02:46:43,783 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:43,799 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-08-07 02:46:46,833 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:46:46,837 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:46:46,840 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2020-08-07 02:46:48,619 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:46:48,627 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 885
+WARNING 2020-08-07 02:47:10,530 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:47:10,531 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+WARNING 2020-08-07 02:47:13,454 log 228 Not Found: /carts/simple/
+INFO 2020-08-07 02:47:13,458 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 828
+WARNING 2020-08-07 02:47:13,463 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:47:13,485 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-08-07 02:47:18,597 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:47:18,601 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:47:18,611 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2020-08-07 02:47:20,634 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:47:20,654 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 885
+INFO 2020-08-07 02:48:29,221 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-07 02:48:33,860 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:52:20,814 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-07 02:52:22,070 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-07 02:52:30,399 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:53:22,510 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-07 02:53:27,746 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:53:41,652 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-07 02:53:45,288 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:53:45,308 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 885
+WARNING 2020-08-07 02:53:49,756 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:53:49,760 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+WARNING 2020-08-07 02:53:51,489 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:53:51,502 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:53:51,543 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+INFO 2020-08-07 02:53:51,547 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 828
+WARNING 2020-08-07 02:53:52,823 log 228 Not Found: /carts/simple/
+WARNING 2020-08-07 02:53:52,824 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5767
+INFO 2020-08-07 02:53:52,832 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2020-08-07 02:53:54,217 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+INFO 2020-08-07 02:53:54,278 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 885
