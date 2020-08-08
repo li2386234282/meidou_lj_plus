@@ -3,6 +3,7 @@ import logging
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 
+from carts.utils import merge_cart_cookie_to_redis
 from goods.models import SKU
 
 logger =  logging.getLogger('django')
@@ -106,7 +107,7 @@ class RegisterView(View):
                                       'errmsg': 'allow格式有误'})
 
         #sms_code校验(链接redis数据库)
-        redis_conn = get_redis_connection('verify_code')
+        redis_conn = get_redis_connection('sms_code')
 
         #从redis中取值
         sms_code_server = redis_conn.get('sms_%s' % mobile)
@@ -152,6 +153,7 @@ class RegisterView(View):
             username,
             max_age=3600*24*14
         )
+
         return response
 
 #用户登录接口
@@ -231,7 +233,8 @@ class LoginView(View):
             username,
             max_age=3600 * 24 * 14
         )
-
+        # 合并购物车
+        response = merge_cart_cookie_to_redis(request, user, response)
         return response
 
 

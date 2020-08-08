@@ -11,6 +11,7 @@ from QQLoginTool.QQtool import OAuthQQ
 from django.views import View
 from django_redis import get_redis_connection
 
+from carts.utils import merge_cart_cookie_to_redis
 from users.models import User
 from .models import OAuthQQUser
 from itsdangerous import TimedJSONWebSignatureSerializer
@@ -108,6 +109,7 @@ class QQUserView(View):
         login(request,user)
         response = JsonResponse({'code':0,'errmsg':"ok"})
         response.set_cookie("username",user.username,max_age=3600*24*14)
+
         return response
 
     #第三个端口的实现
@@ -178,4 +180,6 @@ class QQUserView(View):
         login(request, user)
         response = JsonResponse({'code': 0, 'errmsg': 'ok'})
         response.set_cookie('username', user.username, max_age=3600 * 24 * 14)
+
+        response = merge_cart_cookie_to_redis(request, user, response)
         return response

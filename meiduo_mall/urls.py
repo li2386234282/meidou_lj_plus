@@ -30,5 +30,7 @@ urlpatterns = [
     re_path(r"", include("contents.urls")),
     #商品总路由
     re_path(r"", include("goods.urls")),
+    #购物车总路由
+    re_path(r"", include("carts.urls")),
 
 ]
